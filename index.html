@@ -2,27 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Movie Search</title>
+    <title>movieSearch</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
   </head>
   <body>
-    <div id="container">
-
-      <h1><a href="movieSearch.html">Movie Search</a></h1>
-      <input type="text" id="input" placeholder="Enter a movie title...">
-      <button type="button" name="submit" id="search">Search</button>
-      <span id="error"></span>
-
-
+    <header>
+      <h1><a href="movieSearch.html">movieSearch</a></h1>
+    </header>
+    <main>
+      <input id="input" placeholder="Enter a movie title..." type="text"> <button id="search" name="submit" type="button">Search</button> <span id="error"></span>
       <div id="results">
-        <div class ="movieList"></div>
+      <div class="movieList"></div>
       </div>
-
-
-      </div>
+    </main>
       <script type="text/javascript" src="app.js"></script>
         </body>
       </html>
